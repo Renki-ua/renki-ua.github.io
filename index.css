@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+}
+
+div {
+  color: #1f2224;
+  font-family: Fixel Display;
+  font-size: 1.39vw; /* 20px / 1440px * 100 */
+  font-weight: 700;
+  line-height: 1.91vw; /* 27.6px / 1440px * 100 */
+  text-align: left;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  width: calc(100% - 12.76%); /* 6.38% * 2 */
+  height: 10.42%; /* 120px / 1152px */
+  display: flex;
+  padding: 2.6% 6.38%; /* 30px / 1152px * 100 */
+  justify-content: space-between;
+}
+
+.header {
+  padding: 5.2% 6.38%; /* 60px / 1152px * 100 */
+}
+
+.chips-team {
+  display: flex;
+  gap: 1.11%; /* 16px / 1440px * 100 */
+  width: 100%;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.button-img {
+  position: absolute;
+  left: 24px;
+  bottom: 82.35px;
+}
+
+.hero-img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.mailto {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mailto:hover {
+  text-decoration: underline;
+}
+
+.button-img:hover {
+  opacity: 70%;
+}
+
+.main {
+  padding: 0px 6.38%; /* 116px / 1440px */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+}
