@@ -44,8 +44,9 @@ div {
 
 .button-img {
   position: absolute;
-  left: 24px;
-  bottom: 82.35px;
+  left: 2%; /* Adjust based on your design */
+  bottom: 7.5%; /* Adjust based on your design */
+  width: 30%; /* Adjust based on your design */
 }
 
 .hero-img {
