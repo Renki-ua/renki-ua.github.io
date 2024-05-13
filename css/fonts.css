@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Fixel Display";
+  src: local(""), url("../fonts/Fixel/FixelDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/Fixel/FixelDisplay-Bold.woff") format("woff"),
+    url("../fonts/Fixel/FixelDisplay-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fixel Text";
+  src: local(""), url("../fonts/Fixel/FixelText-Bold.woff2") format("woff2"),
+    url("../fonts/Fixel/FixelText-Bold.woff") format("woff"),
+    url("../fonts/Fixel/FixelText-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: "Fixel Text";
+    src: local(""), url("../fonts/Fixel/FixelText-Light.woff2") format("woff2"),
+      url("../fonts/Fixel/FixelText-Light.woff") format("woff"),
+      url("../fonts/FixelText-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
